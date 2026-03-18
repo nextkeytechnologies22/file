@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Drive - Shared Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="card">
+            <!-- Official Drive Logo (Embedded SVG for instant loading) -->
+            <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA4Ny4zIDc4Ij48cGF0aCBmaWxsPSIjMDBCRDYyIiBkPSJNMzAuNyA3OGw1Ni42IDAtMTUuMy0yNi41LTU2LjYgMHoiLz48cGF0aCBmaWxsPSIjNDI4NUY0IiBkPSJNMzAuNyA3OEwwIDUyLjUgMTUuMyAyNi41IDQ2IDc4eiIvPjxwYXRoIGZpbGw9IiNGRkJDMDAiIGQ9Ik0xNS4zIDI2LjVsMTUuNC0yNi41IDU2LjYgMC0xNS4zIDI2LjV6Ii8+PC9zdmc+" class="drive-logo" alt="Drive">
+            
+            <h1>Shared Document</h1>
+            <p class="subtitle">A file has been shared with you via Google Drive. You have been invited to view the following document.</p>
+
+            <div class="file-card">
+                <!-- Official Docs Icon (Embedded SVG) -->
+                <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA0OCA0OCI+PHBhdGggZmlsbD0iIzQyODVGNCIsIGQ9Ik0zNCA0SDE0Yy0yLjIgMC00IDEuOC00IDR2MzJjMCAyLjIgMS44IDQgNCA0aDIwYzIuMiAwIDQtMS44IDQtNFY4YzAtMi4yLTEuOC00LTQtNHptLTQgMzBINTh2LTJoMTR2MnptMC00SDU4di0yaDE0djJ6bTAtNEg1OHYtMmgxNHYyeiIvPjwvc3ZnPg==" class="doc-icon">
+                <div class="file-text">
+                    <div clasyress="file-title">Internal_Proposal_Final.docx</div>
+                    <div class="file-type">Word Document • 1.4 MB</div>
+                </div>
+            </div>
+
+            <div class="button-container">
+                <a href="#" class="btn-primary">View document</a>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="abuse-report">
+                Don't recognize this sender? <a href="#">Report abuse</a>
+            </div>
+        </div>
+
+        <div class="legal-footer">
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
+            <a href="#">Help</a>
+        </div>
+    </div>
+</body>
+</html>
